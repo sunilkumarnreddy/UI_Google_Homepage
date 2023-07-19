@@ -1,0 +1,137 @@
+.nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    
+    li {
+     padding-bottom: 5px; 
+      
+    }
+  }
+  
+  ul {
+    float: right;
+    list-style-type: none;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+.search-form {
+margin: auto;
+}
+.logo {
+  position: relative;
+  top: 200px;
+  width: 30%;
+  left: 270px;
+}
+.text {
+  color: gray;
+  padding: 20px;
+  margin: 15px;
+  border: none;
+  height: 8px;;
+  width: 40%;
+  position: relative;
+  top: 200px;
+  left: 350px;
+  box-shadow: 1px 1px 1px 1px #808080;
+}
+#voice {
+  position: relative;
+  width: 35px;
+  height: auto;
+}
+.tooltip {
+    position: relative;
+    top: 214px;
+    left: 290px;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.btn {
+  position: relative;
+  top: 200px;
+  left: 500px;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  height: auto;
+  width: 47%;
+}
+.sbutton {
+  height: 34px;
+  width: 112px;
+  font-weight: bold;
+  color: gray;
+  border: 0px;
+}
+.sbutton:hover {
+  color: #393e3e;
+  border: 2px solid #a9a9a9;
+}
+.dbutton {
+  height: 34px;
+  width: 125px;
+  font-weight: bold;
+  color: gray;
+  border: 0px;
+}
+.dbutton:hover {
+  color: #393e3e;
+  border: 2px solid #a9a9a9;
+}
+.lang {
+  position: relative;
+  top: 200px;
+  left: 530px;
+  text-decoration: none;
+}
+.footer {
+     background-color: #f1f1f1;
+}
+.rightcolumn {
+position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+}
+.leftcolumn {  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 36%;
+}
